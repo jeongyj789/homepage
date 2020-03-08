@@ -6,6 +6,7 @@ import RegisterPage from './pages/RegisterPage';
 import WritePage from './pages/WritePage';
 import PostPage from './pages/PostPage';
 import Header from './components/common/Header';
+import PostListPage from './pages/PostListPage';
 
 const App = () => {
   return (
@@ -17,6 +18,8 @@ const App = () => {
       <Route component={RegisterPage} path="/register" />
       <Route component={WritePage} path="/write" />
       <Route component={PostPage} path="/@:username/:postId" />
+      <Route component={PostListPage} path="/pos"/>
+
     </>
   );
 };

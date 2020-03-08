@@ -7,6 +7,7 @@ import Responsive from './Responsive';
 import Categories from './Categories';
 
 
+
 const HeaderBlock = styled.div`
   position: fixed;
   width: 100%;

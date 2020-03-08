@@ -1,10 +1,10 @@
 import React from 'react';
+import SelectPage from './SelectPage';
 
 const PostListPage = () => {
   return (
     <>
-    <header />
-    <div>안냥하세요.</div>
+    <SelectPage />
     </>
     );
 };
